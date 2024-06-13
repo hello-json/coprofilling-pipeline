@@ -1,7 +1,7 @@
 # coprofilling-pipeline
 Introduction
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-This workflow provides a comprehensive set of analyses for genomic data, including CNV, SNP, mitochondrial content, and fragments analysis, using a combination of command-line tools and custom Python scripts.
+This workflow provides a comprehensive set of analyses for spatial GT seq data, including CNV, SNP, mitochondrial content, and fragments analysis, using a combination of command-line tools and custom Python scripts.
 
 Install
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
