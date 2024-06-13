@@ -11,6 +11,8 @@ Aneufinder
 
 freebayes
 
+bwa
+
 os
 
 csv
