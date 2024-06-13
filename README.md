@@ -117,7 +117,7 @@ Provides the number of fragments per chromosome.
 
 Step 14: Chromosomal Window-specific Fragments Information
 
-Script: getPerBinWithChromFragments_GEMB.py
+Script: getPerBinWithChromFragments.py
 
 Generates statistics on fragments within specified windows including chromosome information.
 
