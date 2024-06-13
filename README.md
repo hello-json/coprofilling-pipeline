@@ -30,13 +30,19 @@ samtools
 pipeline
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Step 1: Alignment using BWA
+
 Command: bwa mem reference.fasta reads.fastq > aligned.sam
+
 This command aligns sequencing reads to the reference genome using the BWA mem algorithm, producing an SAM file.
 
 Step 2: Processing Mapped Data
+
 Scripts:
+
 getAllBulkFiles_from_mappedData.py: Processes bulk sequencing data to generate sorted and deduplicated files.
+
 getReadsidBarcodeDic_and_seperateSam.py: Separates SAM files based on barcode information.
+
 getBam_for_seperatedSam.py: Converts separated SAM files into BAM format.
 
 Step 3: Preparing Single-Cell BAM Files
